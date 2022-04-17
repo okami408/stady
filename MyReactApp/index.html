@@ -12,8 +12,10 @@
     <div id="root"></div>
     <script type="text/babel">
         (() => {
+
+            const name = '三島由紀夫';
             ReactDOM.render(
-                <h1>Fucking React</h1>,
+                <h1>Hello! {name.toUpperCase()}</h1>,
                 document.getElementById('root')
             );
         })();
