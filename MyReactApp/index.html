@@ -12,10 +12,13 @@
     <div id="root"></div>
     <script type="text/babel">
         (() => {
+            
+            function showMessage(){
+                alert('Hello');
+            }
 
-            const name = '三島由紀夫';
             ReactDOM.render(
-                <h1>Hello! {name.toUpperCase()}</h1>,
+                <div className="box" onClick={showMessage}></div>,
                 document.getElementById('root')
             );
         })();
