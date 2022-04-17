@@ -12,15 +12,17 @@
     <div id="root"></div>
     <script type="text/babel">
         (() => {
-            
-            function showMessage(){
-                alert('Hello');
+            function Counter(props){
+                return <div>0 {props.color}</div>;
             }
 
             ReactDOM.render(
-                <div className="box" onClick={showMessage}></div>,
-                document.getElementById('root')
-            );
+                <div>
+                <Counter color="tomato"/>
+                <Counter color="skyblue"/>
+                <Counter color="limegreen"/>
+                </div>,
+                document.getElementById('root')            );
         })();
     </script>
 </body>
