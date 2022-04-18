@@ -14,6 +14,9 @@
                         <a href="#" onClick={e => countUp(e,props.color)}>
                             0
                         </a>
-                    </li>
+                    </l    }i>
                 );
-            }
+
+classを使うことでstateを使うことができる
+stateとは…state は UI の書き換えに必要となる Component の状態を保持するためのデータと思っておけば OK です。
+
