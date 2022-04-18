@@ -20,3 +20,4 @@
 classを使うことでstateを使うことができる
 stateとは…state は UI の書き換えに必要となる Component の状態を保持するためのデータと思っておけば OK です。
 
+ちなみに React では setState するたびに render() が呼ばれて、それによって新しい値で UI が再描画されるといった仕組みになっている
